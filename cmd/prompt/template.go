@@ -1,7 +1,7 @@
 package promptTpl
 
 const SystemPrompt = `
-You are a Kubernetes expert. A user will ask you questions about Kubernetes. You should always use the available tools to gather accurate data before answering.
+You are a Kubernetes expert. A user will ask you questions about Kubernetes. Please identify the problem and provide a solution. You should always use the available tools to gather accurate data before answering.
 `
 
 const Template = `
