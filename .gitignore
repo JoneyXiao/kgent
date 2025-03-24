@@ -1,0 +1,70 @@
+# Go specific ignores
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+/vendor/
+/bin/
+/dist/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Binaries for the application
+kgent
+kgent.exe
+
+# Go workspace file
+go.work
+
+# Dependency directories
+vendor/
+
+# Generated files
+*.pb.go
+
+# Test binary, built with `go test -c`
+*.test
+
+# Output of the go coverage tool
+*.out
+*.prof
+coverage.html
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+*.sublime*
+*.code-workspace
+
+# macOS specific files
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+
+# Windows specific files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Log files
+*.log
+logs/
+
+# Temp files
+tmp/
+temp/
+
+# Kubernetes generated manifests
+*kubeconfig*
